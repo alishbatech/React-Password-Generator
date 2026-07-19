@@ -1,16 +1,53 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Password Generator built with React and Tailwind CSS. It generates secure random passwords with customizable length and optional numbers and special characters. Users can also copy the generated password to the clipboard with a single click.
 
-Currently, two official plugins are available:
+ ## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate secure random passwords
+- Adjust password length using a range slider
+- Include or exclude numbers
+- Include or exclude special characters
+- Copy the generated password with one click
+- Responsive and clean user interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
 
-## Expanding the ESLint configuration
+## React Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Functional Components
+- JSX
+- useState
+- useEffect
+- useCallback
+- useRef
+- Controlled Components
+- Event Handling ("onChange", "onClick")
+
+## JavaScript Concepts Used
+
+- Math.random()
+- Math.floor()
+- charAt()
+- String manipulation
+- Conditional statements ("if")
+- Loops ("for")
+- Clipboard API ("navigator.clipboard.writeText()")
+
+## How It Works
+
+1. Select the password length using the slider.
+2. Choose whether to include numbers and/or special characters.
+3. The password is generated automatically whenever your settings change.
+4. Click the Copy button to copy the password to your clipboard.
+
+## Author
+
+Alishba Shahid
+
+If you like this project, consider giving it a ⭐ on GitHub.
